@@ -109,6 +109,6 @@ contract Assessment {
         assert(balance == (_previousBalance - _investmentAmount));
         assert(investment == (_previousInvestment + _investmentAmount));
 
-        emit Investments(_investmentAmount); // typo: event name should be Investments, not Investment
+        emit Investments(_investmentAmount);
     }
 }
